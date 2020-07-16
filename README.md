@@ -24,3 +24,5 @@ Parte HTML
 . funzioni.js
 . style.css
 . LL1.34.I.jpg
+
+Per la visualizzazione si consiglia il browser Mozilla Firefox.

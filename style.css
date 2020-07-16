@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto'); 
+
+#parte_immagine {
+	border: solid 1px white;
+	width: 44%;
+	margin-top: 30px;
+	margin-left: 3%;
+	padding: 1%;
+	float: left;
+	overflow: auto;
+}
+
+#riempi {
+	height: 166%;
+}
+
+#parte_testo {
+	border: solid 1px white;
+	float: right;
+	width: 44%;
+	padding: 1%;
+	margin-top: 30px;
+	margin-right: 3%;
+	overflow: auto;
+}
+
+body {
+	font-family: Roboto;
+	background-color: #ebd5b3
+}
+
+#footer {
+	float: bottom;
+	width: 100%;
+	padding: 2%;
+	margin-right: 3%;
+	overflow: auto;
+	opacity: 0.8;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.hover {
+	visibility: hidden;
+}
+
+#inferiore {
+	background-color: white;
+	border-radius: 10px;
+	padding-left: 20px;
+        padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#superiore {
+	background-color: white;
+	border-radius: 10px;
+	padding: 1px;
+	margin: 1px;
+	opacity: 0.8;
+}
+
+#bibliografia {
+	background-color: white;
+	border-radius: 10px;
+	padding-left: 20px;
+  	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  width: 125px;
+  height: 125px;
+}
+
+#informazioni {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input {
+ margin-top: 30px;
+ height: 30px;
+}
+
+.mostra:hover {
+	background-color: yellow;
+	cursor: crosshair;
+}
+
+.sticky {
+  	position: fixed;
+  	top: 0;
+	width: 42%;
+}

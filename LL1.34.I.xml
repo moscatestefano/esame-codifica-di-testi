@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader xml:lang="it">
+		<fileDesc>
+			<titleStmt>
+				<title>Vincenzo Bellini a Francesco Saverio Del Carretto, in Puteaux, agosto 1835</title>
+				<!-- Formato titolo: mittente a destinatario, in luogo, data di stesura -->
+				<author ref="TEI-ListPerson.xml#VB">Vincenzo Bellini</author>
+					<respStmt>
+						<resp>transcription by</resp>
+						<name ref="#GS">
+							<forename>Graziella</forename>
+							<surname>Seminara</surname>
+						</name>
+					</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>
+					Digital Edition
+					<date when="2020-07">July 2020</date>
+				</edition>
+				<respStmt>
+					<resp>encoded by</resp>
+					<name xml:id="SM">
+						<forename>Stefano</forename>
+						<surname>Moscatelli</surname>
+					</name>
+					<name xml:id="SE">
+						<forename>Stefano</forename>
+						<surname>Elisei</surname>
+					</name>
+				</respStmt>
+			</editionStmt>
+			<publicationStmt>
+                <publisher>
+					<orgName>Centro Studi Belliniani</orgName>
+				</publisher>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl resp="#GS" source="TEI-ListBibl.xml#Seminara2017">
+					<citedRange ana="501" to="580" from="580" unit="page">580</citedRange>
+				</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country>Italy</country>
+						<settlement>Catania</settlement>
+						<repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436" n="I-CATm">Museo Belliniano</repository>
+						<idno type="inventory">LL1.34.I</idno>
+						<altIdentifier>
+							<idno type="collocation">In esposizione - Casa Natale, sala B, vetrina 6, ripiano 1, III</idno>
+							<note>La collocazione si riferisce a maggio 2018.</note>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<author xml:lang="it" ref="TEI-ListPerson.xml#VB">Vincenzo Bellini</author>
+							<title xml:lang="it" type="uniform">
+							<persName role="composer" ref="TEI-ListPerson.xml#VB">Vincenzo Bellini</persName>
+							a 
+							<persName ref="TEI-ListPerson.xml#FDC">Francesco Saverio Del Carretto</persName>
+							, in 
+							<placeName ref="TEI-ListPlace.xml#Put">Puteaux</placeName>
+							, 
+							<date when="1835-08" resp="#GS">agosto 1835</date>
+							</title>
+							<textLang mainLang="it">italiano di inizio Ottocento</textLang>
+							<note n="1">
+								Minuta di lettera facente parte anche delle Lettere inviate a Vincenzo Bellini, in quanto la medesima carta contiene la lettera con segnatura <idno type="inventory">LL1.34.II</idno>.
+							</note>
+							<note n="2">
+								La data di redazione della minuta &#232; stata attribuita dalla <persName ref="#GS">Seminara</persName> e non presente nel documento originale.	
+							</note>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material>Carta.</material>
+									<p resp="#SM #SE">La minuta si presenta in buono stato di conservazione. &#200; scritta sia sul recto che sul verso in inchiostro nero. Presenta alcuni strappi sui bordi superiori e segni di usura sul margine inferiore e sul margine destro. &#200; piegata in pi&#249; parti e si rintracciano piccoli buchi, dovuti forse a bruciature o pi&#249; probabilmente all'azione del tempo.</p>
+									<p resp="#GS">Per questa minuta Bellini utilizza il verso di una lettera di Filippo Santocanale datata 18 luglio 1835.</p>
+								</support>
+								<extent>
+									<measure type="folio">1</measure>
+									<dimensions unit="mm">
+										<height>263</height>
+										<width>217</width>
+									</dimensions>
+								</extent>
+								<foliation>
+									Il foglio &#232; piegato verticalmente in 4 parti, di cui 3 sono utilizzate per la scrittura. Si ipotizza che il senso della piegatura sia verso l'interno del foglio, in quanto la minuta &#232; abbozzata su una lettera preesistente.
+								</foliation>
+								<condition>
+									In buono stato di conservazione.
+								</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="3">
+							<handNote xml:id="h1">
+								Scrittura corsiva leggibile a cura dell'autore.
+							</handNote>
+							<handNote xml:id="h2">
+								Scrittura a matita blu sul margine sinistro, probabilmente appartenente a un catalogatore.
+							</handNote>
+							<handNote xml:id="h3">
+								Scrittura non ricondubile alle altre mani.
+							</handNote>
+						</handDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<note>
+								All'interno del carteggio belliniano, la segnatura LL1.34.I identifica la trentaquattresima missiva in ordine cronologico del primo sottogruppo, che corrisponde alle lettere scritte da Vincenzo Bellini. Il numero romano si riferisce a una delle facciate della lettera.
+							</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName role="composer" ref="TEI-ListPerson.xml#VB">Vincenzo Bellini</persName>
+					<placeName ref="TEI-ListPlace.xml#Put">Puteaux</placeName>
+					<date when="1835-08" resp="#GS" type="writing">agosto 1835</date>
+				</correspAction>
+					<correspAction type="received">
+					<persName ref="TEI-ListPerson.xml#FDC">Francesco Saverio Del Carretto</persName>
+					<placeName ref="TEI-ListPlace.xml#NA" resp="#SM #SE">Napoli</placeName> 
+					<date>unknown</date>
+				</correspAction>
+			    <note>
+			        Si ignora se la minuta sia stata trascritta in bella copia e inviata.
+			    </note>
+			</correspDesc>
+			<textClass>
+				<keywords scheme="http://thes.bncf.firenze.sbn.it">
+					<term resp="#GS">
+						minuta 
+					</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="it">Italiano di inizio Ottocento.</language>
+			</langUsage>
+		</profileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<normalization>
+					<p>Per completezza si &#232; scelto di ammodernare tramite elemento &#60;choice&#62; alcune rese grafiche desuete.</p>
+				</normalization>
+			</editorialDecl>
+			<tagsDecl>
+				<rendition xml:id="italic" scheme="css">font-style: italic;</rendition>
+			</tagsDecl>
+			<projectDesc>
+				<p>Questa lettera &#232; stata codificata per l'esame di Codifica di Testi con il prof. Angelo Mario Del Grosso per l'a.a. 2019/2020.</p>
+			</projectDesc>
+		</encodingDesc>
+		<revisionDesc>
+			<change when="2020-06-16" who="#SM #SE">Inizio codifica integrale</change>
+			<change when="2020-07-05" who="#SM #SE">Aggiunta elementi surface e revisione elementi</change>
+			<change when="2020-07-06" who="#SM #SE">Validazione su xmllint e correzioni finali</change>
+			<change when="2020-07-09" who="#SM #SE">Formattazione e aggiunta terza mano</change>
+		</revisionDesc>
+	</teiHeader>
+
+	<facsimile>
+	    <surface n="1" xml:id="LL1.34.I_folio_1r">	
+			<graphic url="LL1.34.II.jpg" width='2655px' height='3184px'/>
+		</surface>
+		<surface n="2" xml:id="LL1.34.I_folio_1v">	
+			<graphic url="LL1.34.I.jpg" width='3200px' height='2664px'/>
+			<zone ulx="935" uly="115" lrx="2440" lry="265" rendition="Line" xml:id="LL1.34.I_line_1v_01"/>
+			<zone ulx="935" uly="389" lrx="2440" lry="544" rendition="Line" xml:id="LL1.34.I_line_1v_02"/>
+			<zone ulx="935" uly="509" lrx="2440" lry="637" rendition="Line" xml:id="LL1.34.I_line_1v_03"/>
+			<zone ulx="935" uly="607" lrx="2440" lry="733" rendition="Line" xml:id="LL1.34.I_line_1v_04"/>
+			<zone ulx="935" uly="701" lrx="2440" lry="841" rendition="Line" xml:id="LL1.34.I_line_1v_05"/>
+			<zone ulx="935" uly="789" lrx="2440" lry="921" rendition="Line" xml:id="LL1.34.I_line_1v_06"/>
+			<zone ulx="935" uly="889" lrx="2440" lry="1017" rendition="Line" xml:id="LL1.34.I_line_1v_07"/>
+			<zone ulx="935" uly="999" lrx="2440" lry="1131" rendition="Line" xml:id="LL1.34.I_line_1v_08"/>
+			<zone ulx="935" uly="1121" lrx="2440" lry="1243" rendition="Line" xml:id="LL1.34.I_line_1v_09"/>
+			<zone ulx="935" uly="1227" lrx="2440" lry="1307" rendition="Line" xml:id="LL1.34.I_line_1v_10"/>
+			<zone ulx="935" uly="1331" lrx="2440" lry="1425" rendition="Line" xml:id="LL1.34.I_line_1v_11"/>
+			<zone ulx="935" uly="1419" lrx="2440" lry="1497" rendition="Line" xml:id="LL1.34.I_line_1v_12"/>
+			<zone ulx="935" uly="1527" lrx="2440" lry="1617" rendition="Line" xml:id="LL1.34.I_line_1v_13"/>
+			<zone ulx="935" uly="1597" lrx="2440" lry="1709" rendition="Line" xml:id="LL1.34.I_line_1v_14"/>
+			<zone ulx="935" uly="1715" lrx="2440" lry="1811" rendition="Line" xml:id="LL1.34.I_line_1v_15"/>
+			<zone ulx="935" uly="1801" lrx="2440" lry="1891" rendition="Line" xml:id="LL1.34.I_line_1v_16"/>
+			<zone ulx="935" uly="1897" lrx="2440" lry="1997" rendition="Line" xml:id="LL1.34.I_line_1v_17"/>
+			<zone ulx="935" uly="1999" lrx="2440" lry="2085" rendition="Line" xml:id="LL1.34.I_line_1v_18"/>
+			<zone ulx="935" uly="2073" lrx="2440" lry="2165" rendition="Line" xml:id="LL1.34.I_line_1v_19"/>
+			<zone ulx="935" uly="2197" lrx="2440" lry="2253" rendition="Line" xml:id="LL1.34.I_line_1v_20"/>
+			<zone ulx="935" uly="2271" lrx="2748" lry="2349" rendition="Line" xml:id="LL1.34.I_line_1v_21"/>
+			<zone ulx="935" uly="2371" lrx="2440" lry="2429" rendition="Line" xml:id="LL1.34.I_line_1v_22"/>
+			<zone ulx="935" uly="2450" lrx="3002" lry="2517" rendition="Line" xml:id="LL1.34.I_line_1v_23"/>
+			<zone ulx="2605" uly="61" lrx="2739" lry="2210" rendition="Line" xml:id="LL1.34.I_line_1v_24"/>
+			<zone ulx="2761" uly="61" lrx="2853" lry="2210" rendition="Line" xml:id="LL1.34.I_line_1v_25"/>
+			<zone ulx="2835" uly="61" lrx="2927" lry="2210" rendition="Line" xml:id="LL1.34.I_line_1v_26"/>
+			<zone ulx="2875" uly="61" lrx="3029" lry="2210" rendition="Line" xml:id="LL1.34.I_line_1v_27"/>
+			<zone ulx="2985" uly="61" lrx="3099" lry="2210" rendition="Line" xml:id="LL1.34.I_line_1v_28"/>
+			<zone ulx="3081" uly="61" lrx="3163" lry="2210" rendition="Line" xml:id="LL1.34.I_line_1v_29"/>
+			<zone ulx="90" uly="1500" lrx="809" lry="2059" rendition="HotSpot" xml:id="LL1.34.I_hotspot_1v_01"/>
+			<zone ulx="135" uly="2127" lrx="290" lry="2322" rendition="HotSpot" xml:id="LL1.34.I_hotspot_1v_02"/>
+		</surface>
+	</facsimile>
+
+	<text xml:lang="it" type="draft" xml:id="LL1.34.I" subtype="manuscript" n="LL1.34.I">
+        <front>
+			<div type="recto">
+			    <pb n="1" xml:id="LL1.34.I_fol_1r" facs="#LL1.34.II"/>
+				    <ab>
+					    <supplied resp="#SE #SM">
+					    Filippo Santocanale a Vincenzo Bellini, in Palermo, luglio 1835<ptr target="#LL1.34.I_note1"/>
+					    </supplied>
+				    </ab>
+			</div>
+		</front>
+
+		<body>
+			<div type="verso" hand="#h1">
+				<div type="opener">
+					<dateline>
+					    <supplied resp="#GS">
+						    <placeName ref="TEI-ListPlace.xml#Paris" resp="#GS">Parigi</placeName>, <date when="1835-08">agosto 1835</date>.
+					    </supplied>
+					</dateline>
+					<!-- Si riporta qui Parigi anche se compare Puteaux. -->
+					<pb n="2" xml:id="LL1.34.I_fol_1v" facs="#LL1.34.I"/>		
+					<salute>		
+						<s type="sentence" n="s_01" rend="align(center)">
+							<lb xml:id="LL1.34.I_01" n="1" facs="#LL1.34.I_line_1v_01"/><seg xml:id="LL1.34.I_r_01"><choice><orig>Eccellenza</orig>
+										<reg resp="#GS"><persName ref="TEI-ListPerson.xml#FDC">Francesco Saverio Del Carretto</persName></reg>
+									</choice>
+								</seg><ptr target="#LL1.34.I_note2"/>
+							<space quantity="2" unit="lines"/>
+						</s>
+					</salute>
+				</div>
+				<div type="letter-body" n="t_01">
+					<ab type="parag" n="ab_01">
+						<s type="sentence" n="s_02">
+							<lb xml:id="LL1.34.I_02" n="2" facs="#LL1.34.I_line_1v_02"/>La bont&#224; con la quale si degn&#242; <w>ricever
+							<lb xml:id="LL1.34.I_03" n="3" facs="#LL1.34.I_line_1v_03" break="no"/>mi</w> l'ultima volta che io fui in <placeName ref="TEI-ListPlace.xml#NA" resp="#GS">Napoli</placeName>,
+							<lb xml:id="LL1.34.I_04" n="4" facs="#LL1.34.I_line_1v_04"/>mi d&#224; <choice resp="#SE #SM"><sic>coragio</sic><corr>coraggio</corr></choice> di pregarla acci&#242; si voglia
+							<lb xml:id="LL1.34.I_05" n="5" facs="#LL1.34.I_line_1v_05"/>interessarsi in <choice resp="#SE #SM"><sic>un'affare</sic><corr>un affare</corr></choice> che mi riguarda.
+						</s>
+						<s type="sentence" n="s_03">
+							<lb xml:id="LL1.34.I_06" n="6" facs="#LL1.34.I_line_1v_06"/>In Italia si <choice><sic>f&#224;</sic><corr>fa</corr></choice> una <hi resp="#SE #SM" rend="underline" rendition="#italic">Pirateria</hi> di tutto ci&#242; che
+							<lb xml:id="LL1.34.I_07" n="7" facs="#LL1.34.I_line_1v_07"/>dovrebbe essere pi&#249; rispettato e <subst resp="#GS"><del><unclear reason="illegible" resp="#SE #SM" cert="low">ripiego</unclear></del><add place="supralinear">sostenuto</add></subst> dalle leggi
+							<lb xml:id="LL1.34.I_08" n="8" facs="#LL1.34.I_line_1v_08"/>come <damage resp="#SE #SM" agent="ink">lo &#232;</damage> in Francia ed in Inghilterra
+							<lb xml:id="LL1.34.I_09" n="9" facs="#LL1.34.I_line_1v_09"/>voglio dire, <hi resp="#SE #SM" rend="underline" rendition="#italic">della propriet&#224; d'Autore</hi>.
+						</s>
+						<s type="sentence" n="s_04">
+						    Come
+							<lb xml:id="LL1.34.I_10" n="10" facs="#LL1.34.I_line_1v_10"/><ref target="TEI-ListPerson.xml#FDC" resp="#GS">Ella</ref> <choice resp="#SE #SM"><sic>s&#224;</sic><corr>sa</corr></choice>, ho scritto per <placeName resp="#GS" ref="TEI-ListPlace.xml#Paris">Parigi</placeName> <rs resp="#GS" type="work" ref="TEI-ListWork.xml#Puritani">i <hi rend="underline" rendition="#italic">Puritani</hi></rs>: <del rend="overstrike">questi si
+							<lb xml:id="LL1.34.I_11" n="11" facs="#LL1.34.I_line_1v_11"/>sono st</del>di quest'<term resp="#GS" subtype="music-term" ref="TEI-ListTerm.xml#opera">opera</term> si son stampati, <hi rend="underline" rendition="#italic">per solo
+							<lb xml:id="LL1.34.I_12" n="12" facs="#LL1.34.I_line_1v_12"/>canto</hi>, diversi pezzi; ma la grande <choice resp="#GS"><orig><term resp="#GS" subtype="music-term" ref="TEI-ListTerm.xml#partitura">partizione</term></orig><reg resp="#GS">partitura</reg></choice>
+							<lb xml:id="LL1.34.I_13" n="13" facs="#LL1.34.I_line_1v_13"/>con lo strumentale &#232; restata inedita; quindi
+							<lb xml:id="LL1.34.I_14" n="14" facs="#LL1.34.I_line_1v_14"/>di mia propriet&#224;: ora con mia meraviglia sento
+							<lb xml:id="LL1.34.I_15" n="15" facs="#LL1.34.I_line_1v_15"/>che la <orgName resp="#GS" type="opera-org" ref="TEI-ListOrganization.xml#Soc_teatri_NA">Societ&#224; dei teatri di Napoli</orgName> andr&#224;
+							<lb xml:id="LL1.34.I_16" n="16" facs="#LL1.34.I_line_1v_16"/>a dare <rs resp="#GS" type="work" ref="TEI-ListWork.xml#Puritani"><hi rend="underline" rendition="#italic">i Puritani</hi></rs> <del rend="overstrike">I</del> senza averla da me
+							<lb xml:id="LL1.34.I_17" n="17" facs="#LL1.34.I_line_1v_17"/>avuto.
+						</s>
+						<s type="sentence" n="s_05">
+							<subst resp="#GS"><del rend="overstrike">I feudi d'un Autore, <ref target="TEI-ListPerson.xml#FDC" resp="#SE #SM">Eccellenza</ref>,</del><add place="supralinear">La propriet&#224; di terra</add></subst> non
+							<lb xml:id="LL1.34.I_18" n="18" facs="#LL1.34.I_line_1v_18"/>sono che il parto del suo ingegno: <subst resp="#GS"><del rend="overstrike">e se la
+							<lb xml:id="LL1.34.I_19" n="19" facs="#LL1.34.I_line_1v_19"/><unclear reason="illegible" resp="#SE #SM" cert="medium">propria terra</unclear></del><add place="supralinear"><del rend="overstrike">d'un</del></add></subst> e se la propriet&#224; dei primi &#232; sacra
+							<lb xml:id="LL1.34.I_20" n="20" facs="#LL1.34.I_line_1v_20"/>quella del secondo lo debba essere del pari. 
+							<lb xml:id="LL1.34.I_21" n="21" facs="#LL1.34.I_line_1v_21"/>
+						</s>
+						<s type="sentence" n="s_06">
+							<choice><sic>perci&#242;</sic><corr>Perci&#242;</corr></choice> io mi rivolgo alla <w>seve<damage extent="one or two characters" atLeast="1" atMost="2" unit="chars">ra</damage></w> <add place="supralinear">giustizia di <choice><abbr><ref target="TEI-ListPerson.xml#FDC" resp="#SE #SM">V<am>.</am>E<am>.</am></ref></abbr><expan>V<ex>ostra</ex> E<ex>ccellenza</ex></expan></choice></add> <del rend="overstrike">e giusto
+							<lb xml:id="LL1.34.I_22" n="22" facs="#LL1.34.I_line_1v_22"/>raziocinio di <choice><abbr><ref target="TEI-ListPerson.xml#FDC" resp="#SE #SM">V<am>.</am>E<am>.</am></ref></abbr><expan>V<ex>ostra</ex> E<ex>ccellenza</ex></expan></choice> che mi sembr&#242; scorgerlo
+							<lb xml:id="LL1.34.I_23" n="23" facs="#LL1.34.I_line_1v_23"/>in quanti discorsi ebbi io l'onore d'ascoltare delle</del><ptr target="#LL1.34.I_note3"/>
+							<lb xml:id="LL1.34.I_24" n="24" facs="#LL1.34.I_line_1v_24" rend="rotated-90-deg"/>e pregarla acci&#242; <choice><sic>facci</sic><corr>faccia</corr></choice><add><del rend="overstrike">alla Sua<unclear extent="one word" quantity="1" unit="word" resp="#SE #SM" cert="low">alriguardi</unclear></del></add> impedire di far uso di una <term subtype="music-term" ref="TEI-ListTerm.xml#partitura"><choice><orig><w>par<gap reason="missing" agent="hole" extent="five characters" quantity="5" unit="chars"/><supplied resp="#GS">tizio</supplied>
+							<lb xml:id="LL1.34.I_25" n="25" facs="#LL1.34.I_line_1v_25" rend="rotated-90-deg" break="no"/>ne</w></orig><reg resp="#GS">partitura</reg></choice></term> contraffatta o non <subst resp="#GS"><del>ricevuta</del><add>da me</add></subst> avuta.
+						</s>
+						<s type="sentence" n="s_07">
+							<lb xml:id="LL1.34.I_26" n="26" facs="#LL1.34.I_line_1v_26" rend="rotated-90-deg"/><del>La <choice><abbr><ref target="TEI-ListPerson.xml#FDC" resp="#SE #SM">V<am>.</am>E<am>.</am></ref></abbr><expan>V<ex>ostra</ex> E<ex>ccellenza</ex></expan></choice> potr&#224;</del>
+						</s>
+					</ab>
+				</div>
+				<div type="closer">
+					<salute>
+						<s type="sentence" n="s_08">
+							<lb xml:id="LL1.34.I_27" n="27" facs="#LL1.34.I_line_1v_27" rend="rotated-90-deg"/>Riceva <choice><orig>Eccellenza</orig><reg resp="#GS"><persName ref="TEI-ListPerson.xml#FDC">Francesco Saverio Del Carretto</persName></reg></choice> le proteste della mia alta <w>considerazio
+							<lb xml:id="LL1.34.I_28" n="28" facs="#LL1.34.I_line_1v_28" rend="rotated-90-deg" break="no"/>ne</w> <del>ed abb</del> e mi ricordi all'amabile <choice><orig><choice><abbr>Sig<am>:</am>ra</abbr><expan>Sig<ex>no</ex>ra</expan></choice>Marchesa</orig><reg resp="#GS"><persName ref="TEI-ListPerson.xml#MDC" resp="#SE #SM">Del Carretto</persName></reg></choice>, e la
+							<lb xml:id="LL1.34.I_29" n="29" facs="#LL1.34.I_line_1v_29" rend="rotated-90-deg"/><gap reason="missing" agent="hole" extent="one character" quantity="1" unit="chars"/><supplied resp="#SE #SM" cert="high">g</supplied>entile <ref target="TEI-ListPerson.xml#MCDC" resp="#GS">sua fi<gap reason="missing" agent="hole" extent="two characters" quantity="2" unit="chars"/><supplied resp="#SE #SM" cert="high">gl</supplied>ia</ref>
+						</s>
+					</salute>
+				</div>
+				<div type="paratext">	
+					<ab type="paratext" n="ab_02" hand="#h2" resp="#SE #SM" rend="upside-down">
+					   <lb xml:id="LL1.34.I_h01" n="30" facs="#LL1.34.I_hotspot_1v_01"/>A97
+					</ab>
+					<ab type="paratext" n="ab_03" hand="#h3" resp="#SE #SM" rend="rotated-90-deg">
+					   <lb xml:id="LL1.34.I_h02" n="31" facs="#LL1.34.I_hotspot_1v_02"/><unclear reason="illegible" cert="low">Ste</unclear>
+					</ab>
+				</div>
+			</div>
+		</body>
+
+		<back>
+			<div type="notes">
+				<note type="footnote" ana="972" resp="#GS" source="TEI-ListBibl.xml#Seminara2017" xml:id="LL1.34.I_note1">
+					<bibl>
+						<citedRange to="580" from="580" unit="page">580</citedRange>
+					</bibl>
+					<p>Per questa minuta <persName ref="TEI-ListPerson.xml#VB">Bellini</persName> utilizz&#242; il <hi rend="italic">verso</hi> di una lettera di <persName ref="TEI-ListPerson.xml#FS">Filippo Santocanale</persName>, datata <date when="1835-07-18">18 luglio 1835</date> (Lettera 481).</p>
+				</note>
+				<note type="footnote" resp="#SE #SM" xml:id="LL1.34.I_note2">
+					<p>Si trattava di <persName ref="TEI-ListPerson.xml#FDC">Francesco Saverio Del Carretto</persName>.</p>
+				</note>
+				<note type="footnote" ana="973" resp="#GS" source="TEI-ListBibl.xml#Seminara2017" xml:id="LL1.34.I_note3">
+					<bibl>
+						<citedRange to="580" from="580" unit="page">580</citedRange>
+					</bibl>
+					<p>Di qui <persName role="composer" ref="TEI-ListPerson.xml#VB">Bellini</persName> prosegue scrivendo trasversalmente nel margine destro della facciata.</p>
+				</note>
+			</div>
+			<div type="bibliography">
+				<listBibl xml:id="LL1.34.I_bibliography">
+					<head>Bibliography of the letter LL1.34.I</head>
+					<bibl xml:id="LL1.34.I_Amore">
+						<ptr target="TEI-ListBibl.xml#Amore1892"/>
+						<author ref="#AA">Amore</author>
+						<date when="1892">1892</date>
+						<citedRange to="351" from="351" unit="page">351</citedRange>
+					</bibl>
+					<bibl xml:id="LL1.34.I_Neri">
+						<ptr target="TEI-ListBibl.xml#Neri2005"/>
+						<author ref="#CN">Neri</author>
+						<date when="2005">2005</date>
+						<citedRange to="439" from="438" unit="page">438-439</citedRange>
+					</bibl>
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
