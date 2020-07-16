@@ -1,4 +1,4 @@
-# esame-codifica-di-testi
+# Esame Codifica di Testi
 
 Qui è possibile reperire le risorse prodotte per l'esame di Codifica di Testi del prof. Angelo Mario Del Grosso per l'a.a. 2019/2020.
 Il progetto di codifica interessa la lettera di grado 3 LL1.34.I del Carteggio Belliniano.
