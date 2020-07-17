@@ -8,6 +8,8 @@ Parte XML
 
 . LL1.34.I.xml
 . tei_all.dtd
+. LL1.34.I.jpg
+. LL1.34.II.jpg
 . TEI-ListBibl.xml
 . TEI-ListOrganization.xml
 . TEI-ListPerson.xml
